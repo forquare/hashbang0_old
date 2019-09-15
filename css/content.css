@@ -1,0 +1,47 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/******************Content**********************/
+#content{
+	margin: 0px 5% 0px 5%;
+	min-width: 800px;
+	width: 90%;
+	background-color: #000000;
+}
+
+#titlebar{
+	height: 32px;
+	margin: 0px 0px -20px 0px;
+	width: 100%;
+	margin-bottom: -21px;
+}
+
+#titlebarleft{
+	background-image: url(../img/window/left_corner.png);
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#titlebarmain{
+	height: 30px;
+	background-image: url(../img/window/title_main.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	color: #000000;
+}
+
+#titlebarmain p{
+	padding-top: 5px;
+}
+
+#titlebarright{
+	background-image: url(../img/window/right_corner.png);
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	float: right;
+}

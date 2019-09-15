@@ -1,0 +1,53 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/*******************Gallery*********************/
+#gallery-body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.gallery-column{
+	height: 200px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.gallery-image{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 25%;
+	height: 128px;
+}
+
+.gallery-image .landscape{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21.25px;
+	margin-bottom: 21.25px;
+	border: 5px inset #FFF;
+}
+
+.gallery-image .portrait {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px inset #FFF;
+}
+
+.gallery-caption{
+	text-align: center;
+}
+
+.gallery-image a:hover img{
+	border: 5px outset #FFF;
+}
+
+.gallery-image a:visited img{
+	border-color: #0000FF;
+}

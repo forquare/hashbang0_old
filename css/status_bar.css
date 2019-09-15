@@ -1,0 +1,48 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/*******************Status Bar******************/
+#statusbar{
+	height: 20px;
+	background-image: url(../img/window/bottom.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	color: #000000;
+	clear: both;
+}
+
+#statusbar p{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20px;
+	vertical-align: middle;
+	text-align: left;
+	text-transform: capitalize;
+	
+	font-family: "courier new", courier, monospace;
+	font-weight: bold;
+	color: #333;
+}
+
+#body a{
+	color: #333;
+	font-weight: bold;
+}
+
+#statusbar a:link{
+	color: #333;
+	text-decoration: none;
+}
+
+#statusbar a:visited{
+	color: #333;
+	text-decoration: none;
+}
+
+#statusbar a:hover{
+	color: #333;
+	font-style: italic;
+	text-decoration: underline;
+}

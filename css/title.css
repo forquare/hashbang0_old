@@ -1,0 +1,14 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/********************Title**********************/
+#title{
+	margin: 0px;
+	height: 130px;
+	width: 100%;
+	background-image: url(../img/title2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

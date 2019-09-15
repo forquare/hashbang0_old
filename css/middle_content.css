@@ -1,0 +1,14 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/******************middle_content***************/
+#middle_content{
+	margin-top: -25px;
+	padding-top: 10px;
+	margin-bottom: -15px;
+	padding-bottom: 20px;
+	border-right: 10px solid #C5C5C5;
+	border-left: 10px solid #C5C5C5;
+}

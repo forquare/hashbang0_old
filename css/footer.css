@@ -1,0 +1,27 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/*******************Footer**********************/
+#footer{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 11pt;
+	text-align: center;
+	clear: both;
+	margin: -10px 0px 0px 0px;
+	width: 100%;
+}
+
+#footer .link{
+	color: #808034;
+	font-weight: bold;
+}
+
+#footer .badge{
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 7px;
+	margin-bottom: 12px;
+}

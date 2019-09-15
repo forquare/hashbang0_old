@@ -1,0 +1,67 @@
+/*Style sheet for The Geekery
+Created: 29th June 2008
+Author: Ben Lavery*/
+/*T R B L*/
+
+/*********************Misc**********************/
+body{
+	background-image: url(../img/back.png);
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12pt;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #00CC00;
+}
+
+h1{
+	color: #00CC00;
+}
+
+h2{
+	color: #00CC00;
+}
+
+h3{
+	color: #00CC00;
+}
+
+.floatLeft { 
+	border: none;
+    float: left; 
+    margin: 4px; 
+}
+
+.floatLeftWithPadding { 
+	border: none;
+    float: left; 
+    margin: 4px; 
+	padding-right: 6px;
+}
+
+.floatRight{
+	border: none;
+	float: right;
+}
+
+.middle{
+	vertical-align: middle;
+}
+
+img{
+	border: 0px;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+.code{
+	margin: 5px 0px 5px 0px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: #990000;
+	font-family: courier, monospace;
+	background-color: #000099;
+	font-weight: bold;
+}
